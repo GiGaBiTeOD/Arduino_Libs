@@ -6,6 +6,11 @@
     Author:     DESKTOP-H0VFUKT\prosp
 */
 
+//#include <VirtualWire/VirtualWire.h>
+//#include <RCSwitch/RCSwitch.h>
+#include <VirtualWire.h>
+#include <RCSwitch.h>
+
 // Define User Types below here or use a .h file
 #define PIN_KEYBOARD_ANALOG 2
 #define PIN_LIGHTSENSOR_ANALOG 1
@@ -37,6 +42,8 @@
 #define PIN_SPI_CE_NRF_DIGITAL 6
 #define PIN_SPI_CS_MRF_DIGITAL 53
 
+RCSwitch rc315 = RCSwitch();
+RCSwitch rc433 = RCSwitch();
 
 //
 
@@ -50,7 +57,14 @@
 
 // The setup() function runs once each time the micro-controller starts
 void setup()
-{
+{	
+	rc315.enableTransmit(PIN_315_TRANS_DIGITAL);
+	rc315.enableReceive(PIN_315_RES_DIGITAL);
+
+	rc433.enableTransmit(PIN_433_TRANS_DIGITAL);
+	rc433.enableReceive(PIN_433_RES_DIGITAL);
+
+
 
 
 }

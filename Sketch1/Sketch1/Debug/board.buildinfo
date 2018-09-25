@@ -41,11 +41,19 @@ menu.cpu.atmega1280.build.mcu=atmega1280
 menu.cpu.atmega1280.build.board=AVR_MEGA
 runtime.ide.path=C:\Program Files (x86)\Arduino
 runtime.os=windows
+<<<<<<< HEAD
 build.system.path=C:\Program Files (x86)\Arduino\hardware\arduino\avr\system
 runtime.ide.version=10805
 target_package=arduino
 target_platform=avr
 runtime.hardware.path=C:\Program Files (x86)\Arduino\hardware\arduino
+=======
+build.system.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\system
+runtime.ide.version=10801
+target_package=arduino
+target_platform=avr
+runtime.hardware.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr
+>>>>>>> 08941adbaac0e111510e3bf93e1b31b26db9fb2a
 originalid=mega
 intellisense.tools.path={runtime.tools.avr-gcc.path}\
 intellisense.include.paths={intellisense.tools.path}avr\include\;{intellisense.tools.path}avr\include\avr\;{intellisense.tools.path}lib\gcc\avr\4.8.1\include;{intellisense.tools.path}lib\gcc\avr\4.9.2\include;{intellisense.tools.path}lib\gcc\avr\4.9.3\include
@@ -211,6 +219,7 @@ atmel_ice.protocol=atmelice_isp
 atmel_ice.program.protocol=atmelice_isp
 atmel_ice.program.tool=avrdude
 atmel_ice.program.extra_params=-Pusb
+<<<<<<< HEAD
 runtime.tools.avr-gcc.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
 runtime.tools.avr-gcc-4.9.2-atmel3.5.4-arduino2.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
 runtime.tools.tools-avr.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
@@ -218,6 +227,24 @@ runtime.tools.avrdude.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
 runtime.tools.avrdude-6.3.0-arduino9.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
 runtime.tools.arduinoOTA.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
 runtime.tools.arduinoOTA-1.1.1.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
+=======
+medbg.name=Atmel mEDBG
+medbg.communication=usb
+medbg.protocol=stk500v2
+medbg.program.protocol=stk500v2
+medbg.program.tool=avrdude
+medbg.program.extra_params=-Pusb
+runtime.tools.avr-gcc.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2
+runtime.tools.avr-gcc-4.9.2-atmel3.5.4-arduino2.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2
+runtime.tools.avrdude.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\tools\avrdude\6.3.0-arduino9
+runtime.tools.avrdude-6.3.0-arduino9.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\tools\avrdude\6.3.0-arduino9
+runtime.tools.arduinoOTA.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\tools\arduinoOTA\1.1.1
+runtime.tools.arduinoOTA-1.1.1.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\tools\arduinoOTA\1.1.1
+runtime.tools.arduinoOTA-1.0.0.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
+runtime.tools.avrdude-6.3.0-arduino8.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
+runtime.tools.avr-gcc-4.9.2-atmel3.5.3-arduino2.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
+runtime.tools.tools-avr.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
+>>>>>>> 08941adbaac0e111510e3bf93e1b31b26db9fb2a
 upload.protocol=wiring
 upload.maximum_size=253952
 upload.speed=115200
@@ -228,7 +255,11 @@ build.mcu=atmega2560
 runtime.vm.boardinfo.id=mega_atmega2560
 runtime.vm.boardinfo.name=mega_atmega2560
 runtime.vm.boardinfo.desc=Arduino/Genuino Mega w/ ATmega2560 (Mega 2560)
+<<<<<<< HEAD
 runtime.vm.boardinfo.src_location=C:\Program Files (x86)\Arduino\hardware\arduino\avr
+=======
+runtime.vm.boardinfo.src_location=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20
+>>>>>>> 08941adbaac0e111510e3bf93e1b31b26db9fb2a
 ide.hint=Use installed IDE. Provides built-in hardware, reference/help and libraries.
 ide.location.key=Arduino16x
 ide.location.ide.winreg=Arduino 1.6.x Application
@@ -273,6 +304,7 @@ ssh.host.wwwfiles.path=/www/sd
 build.working_directory={runtime.ide.path}\java\bin
 ide.appid=arduino16x
 location.sketchbook=C:\Users\Oleg\Documents\Arduino
+<<<<<<< HEAD
 build.core.vmresolved=C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino
 build.core.parentfolder.vmresolved=C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores
 build.core.coresparentfolder.vmresolved=C:\Program Files (x86)\Arduino\hardware\arduino\avr
@@ -292,12 +324,34 @@ vmresolved.compiler.path=C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\
 vmresolved.tools.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
 build.variant.vmresolved.name=mega
 build.variant.vmresolved.full_path=C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega
+=======
+build.core.vmresolved=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino
+build.core.parentfolder.vmresolved=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores
+build.core.coresparentfolder.vmresolved=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20
+build.core.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino
+vm.core.include=Arduino.h
+vm.boardsource.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20
+runtime.platform.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20
+vm.platformname.name=avr
+build.arch=AVR
+builder.noino=false
+build.architecture=4.9.2-atmel3.5.4-arduino2
+vmresolved.compiler.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\
+vmresolved.tools.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2
+build.variant.vmresolved.name=mega
+build.variant.vmresolved.full_path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\variants\mega
+build.path=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug
+build.project_name=Sketch1.ino
+build.project_path=D:\SRC\Sketch1\Sketch1
+ProjectDir=D:\SRC\Sketch1\Sketch1\
+>>>>>>> 08941adbaac0e111510e3bf93e1b31b26db9fb2a
 vm.runtime.compiler.showwarnings=false
 vm.runtime.upload.verbose=false
 vm.runtime.upload.verify=false
 serial.port.file=COM7
 serial.port=COM7
 serial.port.num=7
+<<<<<<< HEAD
 serial.port.caption=COM7   - Arduino Mega 2560
 serial.Caption=Arduino Mega 2560 (COM7)
 serial.ClassGuid={4d36e978-e325-11ce-bfc1-08002be10318}
@@ -321,6 +375,8 @@ serial.vid=0x2341
 serial.pid=0x0042
 serial.iserial=55437333537351114160
 serial.port.iserial=55437333537351114160
+=======
+>>>>>>> 08941adbaac0e111510e3bf93e1b31b26db9fb2a
 vm.runtime.compiler.auto_discover_includes=true
 vm.runtime.compiler.auto_discover_includes_cache=true
 build.vm.build.vmdebug=1
@@ -328,11 +384,16 @@ build.vm.build.isgdb=0
 build.vm.build.optimised=1
 vm.last.buildpath=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug
 vm.build.verbose_build_properties=false
+<<<<<<< HEAD
 build.source.path=c:\Users\Oleg\documents\visual studio 2017\Projects\Sketch1\Sketch1\Sketch1.ino
+=======
+build.source.path=D:\SRC\Sketch1\Sketch1\Sketch1.ino
+>>>>>>> 08941adbaac0e111510e3bf93e1b31b26db9fb2a
 PreProcessor.HeaderCount=1
 PreProcessor.PrototypeCount=5
 vm.last.preproc.file.0.file=Sketch1.ino
 vm.last.preproc.file.0.offset=1
+<<<<<<< HEAD
 vm.last.preproc.file.0.length=1788
 vm.last.preproc.file.0.linecount=70
 vm.last.preproc.file.0.linestart=0
@@ -358,3 +419,44 @@ build.path_libraries=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atme
 object_file=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Sketch1.cpp.o
 source_file=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Sketch1.cpp
 object_files= "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Sketch1.cpp.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Wire\Wire.cpp.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Wire\utility\twi.c.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Adafruit-MCP23017-Arduino-Library-master\Adafruit_MCP23017.cpp.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\VM_DBG\VM_DBG.cpp.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\VM_DBG\VM_mem_check_sam.cpp.o" 
+=======
+vm.last.preproc.file.0.length=474
+vm.last.preproc.file.0.linecount=40
+vm.last.preproc.file.0.linestart=0
+vm.last.preproc.file.0.lineend=40
+vm.last.preproc.file.0.prefix_lines=0
+vm.last.preproc.file.1.file=LightSwitch.cpp
+vm.last.preproc.file.1.offset=0
+vm.last.preproc.file.1.length=5292
+vm.last.preproc.file.1.linecount=165
+vm.last.preproc.file.1.linestart=40
+vm.last.preproc.file.1.lineend=205
+vm.last.preproc.file.1.prefix_lines=0
+vm.last.preproc.file.2.file=LightSwitch.h
+vm.last.preproc.file.2.offset=0
+vm.last.preproc.file.2.length=1483
+vm.last.preproc.file.2.linecount=65
+vm.last.preproc.file.2.linestart=205
+vm.last.preproc.file.2.lineend=270
+vm.last.preproc.file.2.prefix_lines=0
+sketch_path=D:\SRC\Sketch1\Sketch1
+vm.sketch_source_path=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug
+vm.build_use_temp=1
+runtime.vm.ide.platforms.path=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\53ggn0bh.0i3\Micro Platforms
+build.variant.path=C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\variants\mega
+archive_file=core.a
+extra.time.local=85541887
+tools.ctags.path={runtime.tools.ctags.path}
+tools.ctags.cmd.path={path}/ctags
+tools.ctags.pattern="{cmd.path}" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives "{source_file}"
+vm_all_includes= -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\variants\mega"  -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\53ggn0bh.0i3\Micro Platforms\default\debuggers\VM_DBG"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src"  -I"C:\Program Files (x86)\Arduino\libraries\Adafruit-MCP23017-Arduino-Library-master"  -I"C:\Program Files (x86)\Arduino\libraries"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\libraries"  -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\53ggn0bh.0i3\Micro Platforms\default\debuggers"  -I"C:\Users\Oleg\Documents\Arduino\libraries" 
+vm_all_and_proj_includes= -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\variants\mega"  -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\53ggn0bh.0i3\Micro Platforms\default\debuggers\VM_DBG"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src"  -I"C:\Program Files (x86)\Arduino\libraries\Adafruit-MCP23017-Arduino-Library-master"  -I"C:\Program Files (x86)\Arduino\libraries"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\libraries"  -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\53ggn0bh.0i3\Micro Platforms\default\debuggers"  -I"C:\Users\Oleg\Documents\Arduino\libraries" 
+vm_core_includes= -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\variants\mega" 
+includes= -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\cores\arduino"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\variants\mega"  -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\53ggn0bh.0i3\Micro Platforms\default\debuggers\VM_DBG"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\libraries\Wire\src"  -I"C:\Program Files (x86)\Arduino\libraries\Adafruit-MCP23017-Arduino-Library-master"  -I"C:\Program Files (x86)\Arduino\libraries"  -I"C:\Users\Oleg\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.20\libraries"  -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\53ggn0bh.0i3\Micro Platforms\default\debuggers"  -I"C:\Users\Oleg\Documents\Arduino\libraries" 
+build.path_sketch=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug
+build.path_core=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\core
+build.path_libraries=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug
+object_file=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\LightSwitch.cpp.o
+source_file=C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\LightSwitch.cpp
+object_files= "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Sketch1.cpp.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\LightSwitch.cpp.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Wire\Wire.cpp.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Wire\utility\twi.c.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\Adafruit-MCP23017-Arduino-Library-master\Adafruit_MCP23017.cpp.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\VM_DBG\VM_DBG.cpp.o"  "C:\Users\Oleg\AppData\Local\Temp\VMBuilds\Sketch1\mega_atmega2560\Debug\VM_DBG\VM_mem_check_sam.cpp.o" 
+>>>>>>> 08941adbaac0e111510e3bf93e1b31b26db9fb2a

@@ -15,7 +15,11 @@
 #define __AVR_ATmega2560__
 #define _VMDEBUG 1
 #define F_CPU 16000000L
+<<<<<<< HEAD
 #define ARDUINO 10805
+=======
+#define ARDUINO 10801
+>>>>>>> 08941adbaac0e111510e3bf93e1b31b26db9fb2a
 #define ARDUINO_AVR_MEGA2560
 #define ARDUINO_ARCH_AVR
 #define __cplusplus 201103L

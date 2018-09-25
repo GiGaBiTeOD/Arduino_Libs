@@ -21,5 +21,16 @@
     <ClInclude Include="__vm\.Sketch1.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="LightSwitch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LightSwitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+>>>>>>> 08941adbaac0e111510e3bf93e1b31b26db9fb2a
   </ItemGroup>
 </Project>
